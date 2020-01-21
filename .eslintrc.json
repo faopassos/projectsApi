@@ -4,7 +4,11 @@
       "es6": true
   },
   "extends": [
-      "standard"
+      "standard",
+      "prettier"
+  ],
+  "plugins": [
+    "prettier"
   ],
   "globals": {
       "Atomics": "readonly",
